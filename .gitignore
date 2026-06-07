@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+.conda/
+skinenv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ML artifacts (large files)
+*.h5
+*.savedmodel
+*.tflite
+*.onnx
+data/
+model/models/*.h5
+model/models/*.savedmodel
+output/
+
+# Database
+*.db
+*.sqlite3
+backend/uploads/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

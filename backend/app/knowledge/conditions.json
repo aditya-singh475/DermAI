@@ -1,0 +1,67 @@
+{
+  "acne": {
+    "display_name": "Acne",
+    "description": "Acne is a common skin condition where hair follicles become clogged with oil and dead skin cells, often appearing as pimples, blackheads, or whiteheads.",
+    "symptoms": ["Pimples or pustules", "Blackheads and whiteheads", "Oily skin areas", "Redness around breakouts"],
+    "care_tips": [
+      "Wash affected areas gently twice daily with a mild cleanser",
+      "Avoid picking or squeezing lesions to reduce scarring risk",
+      "Use non-comedogenic moisturizers and sunscreen",
+      "Keep hair and phone surfaces clean if they touch your face"
+    ],
+    "when_to_see_doctor": "See a dermatologist if acne is painful, leaves scars, does not improve after several weeks of basic care, or affects your quality of life.",
+    "base_urgency": "low"
+  },
+  "benign": {
+    "display_name": "Benign Skin Growth",
+    "description": "Benign skin growths are non-cancerous lesions such as moles, cysts, or other harmless tissue changes. Many people have them and they are often stable over time.",
+    "symptoms": ["Stable appearance over months", "Uniform color and shape", "Usually painless", "Slow or no growth"],
+    "care_tips": [
+      "Monitor for changes using the ABCDE rule (Asymmetry, Border, Color, Diameter, Evolution)",
+      "Take dated photos if you want to track changes over time",
+      "Use sun protection on exposed skin",
+      "Do not attempt to remove or treat growths at home"
+    ],
+    "when_to_see_doctor": "Consult a dermatologist if a growth changes shape, color, size, bleeds, itches persistently, or looks different from your other spots.",
+    "base_urgency": "low"
+  },
+  "eczema": {
+    "display_name": "Eczema",
+    "description": "Eczema (atopic dermatitis) is an inflammatory skin condition that causes dry, itchy, and sometimes red or cracked patches of skin.",
+    "symptoms": ["Dry or scaly patches", "Persistent itching", "Red or inflamed skin", "Thickened skin with chronic scratching"],
+    "care_tips": [
+      "Moisturize regularly, especially after bathing",
+      "Use fragrance-free products and lukewarm (not hot) showers",
+      "Identify and avoid personal triggers such as harsh soaps or certain fabrics",
+      "Keep nails trimmed to reduce damage from scratching"
+    ],
+    "when_to_see_doctor": "Seek medical advice if itching disrupts sleep, skin becomes infected (oozing, crusting, fever), or over-the-counter care is not helping.",
+    "base_urgency": "medium"
+  },
+  "fungal": {
+    "display_name": "Fungal Infection",
+    "description": "Fungal skin infections are caused by fungi growing on the skin surface. Common examples include ringworm and athlete's foot, often appearing as scaly or ring-shaped rashes.",
+    "symptoms": ["Scaly or peeling patches", "Ring-shaped rash", "Itching or burning", "Discolored nails in some cases"],
+    "care_tips": [
+      "Keep affected areas clean and dry",
+      "Avoid sharing towels, clothing, or footwear",
+      "Change socks and underwear daily",
+      "Do not use steroid creams on suspected fungal rashes without medical guidance"
+    ],
+    "when_to_see_doctor": "See a doctor if the rash spreads, does not improve within 2 weeks, affects nails or scalp, or you have diabetes or a weakened immune system.",
+    "base_urgency": "medium"
+  },
+  "melanoma": {
+    "display_name": "Melanoma",
+    "description": "Melanoma is a serious form of skin cancer that develops in pigment-producing cells. Early detection is critical — any suspicious mole or lesion should be evaluated promptly by a professional.",
+    "symptoms": ["Asymmetrical or irregular borders", "Multiple colors within one lesion", "Diameter larger than 6mm", "Evolution or change over time", "Bleeding or non-healing spot"],
+    "care_tips": [
+      "Do not delay professional evaluation for suspicious lesions",
+      "Avoid sun exposure on the affected area until assessed",
+      "Document the lesion with a dated photo for your doctor",
+      "This tool cannot diagnose cancer — only a dermatologist can"
+    ],
+    "when_to_see_doctor": "Seek urgent dermatology evaluation as soon as possible. Melanoma requires professional diagnosis and treatment — do not wait.",
+    "base_urgency": "high"
+  }
+}
